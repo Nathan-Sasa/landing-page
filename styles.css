@@ -1,8 +1,30 @@
 *{
-    padding: 0;
+    /* padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 html{
     scroll-behavior: smooth;
+}
+body{
+    /* padding-inline: 2rem */
+}
+
+header ul li{
+    display: flex;
+}
+header ul li a:not(.sing){
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* active link header */
+.links.activeLInk{
+    background: blue;
+    color: white;
 }
